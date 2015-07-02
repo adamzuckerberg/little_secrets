@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+#main .columns {
+	border: 1px solid black;
+	min-height: 1400px;
+ }
