@@ -15,6 +15,11 @@
  */
 
 #main .columns {
+	margin-top: 40px;
 	border: 1px solid black;
-	min-height: 1400px;
+	min-height: 600px;
+ }
+
+ #text_area {
+ 	min-height: 500px;
  }

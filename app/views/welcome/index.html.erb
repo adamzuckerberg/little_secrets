@@ -1,5 +1,18 @@
 <div class="row" id="main">
-	<div class="large-5 columns">Secret Message</div>
-	<div class="large-5 columns">Decoded</div>
-	<div class="large-2 columns"></div>
+	<div class="large-5 columns">Secret Message
+		<%= text_area(:comment, :text, width: "90%", height: "90%", :id => "text_area") %>
+		<%= button_to "Decode", "#", :class => "button success tiny" %>
+	</div>
+	<div class="large-5 columns">Decoded Message
+		<%= text_area(:comment, :text, width: "90%", height: "90%", :id => "text_area") %>
+		<%= button_to "Encode", "#", :class => "button success tiny" %>
+	</div>
+	<div class="large-2 columns">Decoder Ring
+		<p>
+		  <label for="amount"></label>
+		  <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+		</p>
+		 
+		<div id="slider-vertical" style="height:200px;"></div>
+	</div>
 </div>
